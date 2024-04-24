@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../songpa_react"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "javascriptwork"
+	}
+}

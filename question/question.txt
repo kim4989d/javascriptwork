@@ -1,0 +1,163 @@
+415 
+
+이름 나이 주소 이메일을 
+출력하시오
+question1.html
+
+cafe.naver.com/kimjavapspring304
+alt+l alt+o
+
+
+416
+이름 
+나이
+주소
+이메일 
+
+
+p ,br 출력 
+
+링크 a href  네이버 링크 
+링크 a href  쿠팡 링크 
+링크 a href  다음 링크 
+
+css 빼고진행 html 만진행 
+다음 수업은 css(퍼블리셔가 아니므로(개발자))
+웹표준이나 상세하게는진행안함  
+10:16분까지 
+
+
+4행 2열 앞에 1열은 
+
+이름       아무개
+나이        22
+주소        성동구
+이메일     123@nave.com 
+
+1:55
+
+cafe.naver.com/kimjavapspring304
+
+
+4행 3열 앞에 1열은 
+
+1           2 3                         colspan 2 
+이름       아무개
+나이        22
+주소        성동구
+이메일     123@nave.com
+
+ 5 분 
+
+22분에 휴식 
+
+이름 나이 주소 핸드폰 이메일ㅇ
+
+
+417
+
+ 회원가입 
+
+
+일일과제 
+
+    javascript
+    폴더 daum
+
+    daum/dauminputlogin.html ,dauminputloginnext.html
+    
+    
+    daum.net 회원가입 ->회원가입이 되었습니다 
+
+
+
+418
+cafe.naver.com/kimjavapspring304
+
+javascript/javascriptex1_html
+
+javascript function Address(){}
+이름 핸드폰 이메일 console.log window.alert 
+
+
+coupang/coupanginputlogin.html
+javascript function CoupangInputlogin(){}
+쿠팡 회원가입  console.log window.alert
+일일문제 
+
+
+4월 19일
+3행2열 
+
+이름 
+나이
+주소 
+
+html 일반과제
+이름(영문)_현재파일명_날짜
+
+
+422 
+
+
+question1.js 
+
+함수:이름 본인이름 
+2 ~ 11 배열 만들거나 (입력받거나) 합을구하시고 return  출력하시오 
+cafe.naver.com/kimjavapspring304
+일반과제
+
+
+          name
+userid userid
+passwd passwd 
+email  email
+phone   phone 
+
+본인이름Login.html  ->본인이름Loginnext.html 
+
+frm2/본인이름Login.html 
+frm2/본인이름Loginnext.html 
+
+
+java/react
+document.getelementbyid
+document.getelementtabname 
+document.getelementclassname 
+innnerhtml innertext 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

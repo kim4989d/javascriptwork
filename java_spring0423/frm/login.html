@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        function Login(){
+
+            //모든 객체지향은 큰데에서 작은데로 간다 
+            //java,javascript,php,python,c,c++,android
+            // 대한민국.송파구.가락시장.송파여성개발인력센터.304.김현호 
+          //대소문자 구별 
+          //document :문서 모든 파일의부모 
+          //window:모든 창의 부모 
+           //; 해당하는 라인이 마쳤다 
+
+          var frm=document.loginfrm;
+
+            window.alert('로그인준비중!!');
+                // alert()
+                //vaue(값):로그인값
+
+            window.alert(frm.userid.value);
+            window.alert(frm.passwd.value);
+            
+
+        }
+
+
+    </script>
+
+
+
+</head>
+
+<body>
+    <!-- form 안에 name있어야 다음 폐이지에 값이 넘어간다  -->
+    
+    <form name="loginfrm">
+
+        userid <input type="text" name="userid"><br>
+        passwd<input type="password" name="passwd">
+
+        <input type="button" value="login" onclick="Login()">
+        
+
+    </form>
+
+
+
+</body>
+</html>

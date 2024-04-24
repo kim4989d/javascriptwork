@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script>
+        function Login(){
+            //객체지향은 큰데에서 작은데로 간다
+            //모든 파일의부모 document(현재폐이지 접근)
+            //form 에접근
+             var frm=document.exfrm;
+
+             console.log('name:'+frm.name.value);
+            console.log('phone:'+frm.phone.value);
+            console.log('email:'+frm.email.value);
+
+            alert(frm.name.value);
+            alert(frm.phone.value);
+            alert(frm.email.value);
+            
+
+
+            
+
+        }
+
+    </script>
+    
+
+</head>
+<body>
+   <form name="exfrm">
+    
+    userid <input type="text" name="name" id=""><br>
+    passwd <input type="password" name="phone" id="">
+    address <input type="text" name="email" id="">
+
+
+
+    <input type="button" value="login" onclick="Login()">
+
+   </form>
+
+
+</body>
+</html>

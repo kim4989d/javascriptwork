@@ -1,0 +1,103 @@
+
+<!-- javascript 
+document:문서(모든문서의부모) 
+window:창 (모든창의부모) 
+
+-->
+<!-- doucmenttype:문서타입  -->
+<!-- 문서타입의 html형식 선언  -->
+<!-- 웹으로 출력 :html -->
+<!-- 상속이 젤어렵다 -->
+<!-- Object -->
+
+  
+<!-- 큰데에서 작은데로 간다 객체지향프로그래밍  -->
+
+
+<!-- 지구.대한민국.서울시.송파구.가락동.송파여성인력개발센터.3.304.김현호선생님  
+지구.미국
+지구.스폐인
+지구.하와이
+
+Object ->해당하는지역(상속)
+spring,egov,servlet,jsp (m:model,v:view,c:controller)
+서울시.송파구.가락동.송파여성인력개발센터
+
+송파여성인력개발센터.1층 
+송파여성인력개발센터.2층
+송파여성인력개발센터.3층
+송파여성인력개발센터.4층
+송파여성인력개발센터.5층 -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- ctrl+h:전체검색,전체 바꾸기
+    ctrl+shift+r:파일검색  -->
+        <!-- head:javascript,css,meta,title 설정 링크 -->
+        <!-- 함수 :method -->
+        <!-- 아귀먼트는 무한으로올수있고 기본으로 올수있다 () -->
+        <!-- ()있는것은 무저건 동사(움직인다)이다 -->
+        <!-- 변수:하나의 값만 가진다 var name='김현호' -->
+        <!-- function 메소드이름(아귀먼트(인자),아귀먼트(인자)2,아귀먼트(인자)3.....) -->
+           <!-- javascript,vbjavascript,es6,typescript,babanascript,jquery,react,vue,node -->
+        <!-- 저장하고 집에서 공부한다
+        대중교통이용할때 공부한다 
+        수업에 100%이해하고 집에서 논다
+        전부다 기억한다  
+        머리회전을 높이기위해서 문제를 낸다  -->
+        <script>
+            function Daum(){
+                
+                // val:Object 모든 타입을 다 가질수있다(포함하고있다)
+                // es6(2019 javascript)                    
+
+                //변수:모든 객체지향언어 오른쪽에서 왼쪽으로 값이 이동한다 (저장한다)
+               //form 타입이름이 변수로 저장 
+                var frm=document.daumfrm;
+                frm.action="daumnext2.html";
+                // url에 파라미터 값이붙어서 넘어간다 255넘으면 짤린다 
+                // frm.method="get";
+               
+               //내부적으로 파리미터값이 넘어간다 (url 값이 않보인다 )
+               //405 에러 liveserver 지원을 하지않는다  
+               frm.method="post";
+
+                //모든파리미터 이름을 다음폐이지로 넘긴다 
+                //tomcat(was) server 
+                frm.submit();
+
+
+            }    
+
+        </script>
+        
+
+</head>
+<body>
+    <form name="daumfrm" >
+        <!-- parameter name:userid  -->
+        userid<input type="text" name="userid" ><br>
+        <!-- parameter name:userid ->
+        <!-- 별표로 출력  -->
+        passwd<input type="password" name="passwd"><br>
+            <!-- 이벤트 처리 (버튼을 누르면 어떤행위가있다) -->
+            <!-- 사용자 -> 사용자 왜않되지 ? ,개발자 왜않될까? -->
+            
+            <input type="button" value="login" onclick="Daum()">
+
+    </form>
+    <!-- 한번에 이해하자  -->
+    <!-- form :form body 안에 있어야한다  -->
+        <!-- form 안에 파라미터 이름(parameter name)이 있어야 다음 폐이지로 값이 넘어간다  -->
+
+
+</body>
+</html>

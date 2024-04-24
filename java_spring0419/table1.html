@@ -1,0 +1,101 @@
+<!-- html 5버전 가장 최신버전  -->
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- table(표):행과열
+    행:가로
+    열:세로  -->
+    <!-- 3행 3열  -->
+    <!-- border 표의 선굵기 -->
+    <!-- react table 프로그램랭귀지 필요해서 수업 진행  -->
+    <!-- html 5부터는 table태그를 지원을 않한다 (웹표준 ) -->
+    <!-- html(뼈대) css(넓이 폭,높이 그리기 꾸미기 id class),javascript(동적으로 움직이는것) -->
+
+
+    <table border="1" width="300" height="300">
+        <!-- 행 -->
+        <tr>
+            <!-- 열  -->
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <!-- 열  -->
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <!-- 열  -->
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    </table>
+
+    <br>
+    <!-- 3행 3열 -->
+    <!-- ctrl+shift+f:자동 정렬  -->
+
+
+    <table border="1" width="300" height="300">
+        <tr>
+            <td colspan="2">1</td>
+
+
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td colspan="2">5</td>
+        </tr>
+        <tr>
+            <td colspan="3">7</td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <!-- 3행 3열  -->
+    <!-- emmet 단축어 (인텔리전스기능(자동완성기능))  -->
+
+    <!-- table>tr*3>td*3{$} -->
+
+    <!-- table[border="1" width="300" height="300"]>tr*3>td*3{$} -->
+    <table border="1" width="300" height="300">
+        <tr>
+            <td rowspan="2">1</td>
+            <td>2</td>
+            <td rowspan="3">3</td>
+        </tr>
+        <tr>
+
+            <td>2</td>
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+
+        </tr>
+    </table>
+
+
+
+
+    
+
+</body>
+
+</html>
