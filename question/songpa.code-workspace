@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "etc-1",
+			"path": "../../etc-1"
+		},
+		{
+			"path": "../../songpa_react"
+		},
+		{
+			"name": "homeapp-1",
+			"path": "../../homeapp-1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "javascriptwork",
+		"terminal.integrated.shellIntegration.enabled": true,
+		"terminal.integrated.defaultProfile.windows": "Command Prompt"
+	}
+}

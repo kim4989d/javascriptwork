@@ -1,10 +1,11 @@
 {
 	"folders": [
 		{
-			"path": "../../songpa_react"
+			"path": ".."
 		},
 		{
-			"path": ".."
+			"name": "etc-1",
+			"path": "../../etc-1"
 		}
 	],
 	"settings": {
